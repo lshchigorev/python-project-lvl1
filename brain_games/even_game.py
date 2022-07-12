@@ -32,7 +32,7 @@ def incr_num_of_corr_answ(num_of_corr_answ):
     return num_of_corr_answ
 
 def incr_num_of_wrong_answ(num_of_wr_answ, corr_answ, user_answ):
-    print('Answer',user_answ,' is wrong, correct answer is', corr_answ)
+    print('Answer {} is wrong, correct answer is {}' .format(user_answ, corr_answ))
     print('Let\'s try again')
     num_of_wr_answ += 1
     return num_of_wr_answ
